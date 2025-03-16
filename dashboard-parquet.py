@@ -94,6 +94,3 @@ st.dataframe(monthly_hot_products)
 
 st.subheader("🌟 Top 10 Produits du Client")
 st.bar_chart(top_products)
-
-st.subheader("🧾 Détails des Factures du Client")
-st.dataframe(invoice_details.set_index('numero'))
